@@ -1,7 +1,7 @@
-memtier_benchmark
+zipf_memtier
 =================
 
-memtier_benchmark is a command line utility developed by Redis Labs (formerly Garantia Data Ltd.) for load generation and bechmarking NoSQL key-value databases. It offers the following:
+Zipf_memtier is a upgraded version of memtier_benchmark(developed by Redis Labs). It offers the following:
 
 * Support for both Redis and Memcache protocols (text and binary)
 * Multi-threaded multi-client execution
