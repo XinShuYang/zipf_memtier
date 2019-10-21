@@ -1,17 +1,12 @@
 zipf_memtier
 =================
 
-Zipf_memtier is a upgraded version of memtier_benchmark. The goal of zipf_memtier is to add several new data distribution(such as zipf distribution) to build a more realistic data/queries generator in both redis&memcache client. It offers the following:
+Zipf_memtier is a upgraded version of memtier_benchmark. The goal of zipf_memtier is to add several new data distribution(such as zipf distribution) to build a more realistic data/queries generator in both redis&memcache client. It offers the following additional features:
 
-* Support for both Redis and Memcache protocols (text and binary)
-* Multi-threaded multi-client execution
-* Multiple configuration options, including:
- * Read:Write ratio
- * Random and sequential key name pattern policies
- * Random or ranged key expiration
- * Redis cluster
- * TLS support
- * ...and much more
+* Zipf distribution in object generator
+* Python script 
+* Redis data（CSV） generator
+
 
 Read more at:
 
