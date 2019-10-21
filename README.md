@@ -8,7 +8,7 @@ Zipf_memtier is a upgraded version of memtier_benchmark. The goal of zipf_memtie
 * Redis data（CSV） generator
 
 
-Read more at:
+Memtier document:
 
 * [A High Throughput Benchmarking Tool for Redis and Memcached](https://redislabs.com/blog/memtier_benchmark-a-high-throughput-benchmarking-tool-for-redis-memcached)
 * [Pseudo-Random Data, Gaussian Access Pattern and Range Manipulation](https://redislabs.com/blog/new-in-memtier_benchmark-pseudo-random-data-gaussian-access-pattern-and-range-manipulation)
