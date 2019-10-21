@@ -1,7 +1,7 @@
 zipf_memtier
 =================
 
-Zipf_memtier is a upgraded version of memtier_benchmark(developed by Redis Labs). The goal of zipf_memtier is to add several new data distribution(such as zipf distribution) to build a more realistic data/queries generator in both redis&memcache. It offers the following:
+Zipf_memtier is a upgraded version of memtier_benchmark. The goal of zipf_memtier is to add several new data distribution(such as zipf distribution) to build a more realistic data/queries generator in both redis&memcache. It offers the following:
 
 * Support for both Redis and Memcache protocols (text and binary)
 * Multi-threaded multi-client execution
