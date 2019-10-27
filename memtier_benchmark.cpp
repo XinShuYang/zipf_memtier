@@ -1168,7 +1168,7 @@ int main(int argc, char *argv[])
     if (cfg.tls) {
         init_openssl();
 
-        cfg.openssl_ctx = SSL_CTX_new(TLS_client_method());
+        cfg.openssl_ctx = SSL_CTX_new(TLSv1_client_method());
         if (cfg.tls_cert) {
             if (!SSL_CTX_use_certificate_file(cfg.openssl_ctx, cfg.tls_cert,
                         SSL_FILETYPE_PEM)) {
